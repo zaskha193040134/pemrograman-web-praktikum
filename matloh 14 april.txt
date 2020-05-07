@@ -1,0 +1,38 @@
+Sifat Kalimat : Valid : sebuah kalimat bersifat valid, jika selalu bernilai benar untuk semua interpretasi berdasarkan I. Satisfiable :
+ sebuah kalimat bersifat satisfiable, jika bernilai benar untuk beberapa interpretasi berdasarkan I. Contradictory :
+ sebuah kalimat bersifat contradictory, jika bernilai salah untuk semua interpretasi berdasarkan I. Implies :
+ sebuah kalimat bersifat implies, F implies dari G, jika ada interpretasi untuk F dan G, dimana jika F benar berdasarkan I maka G juga benar.
+ Dua buah kalimat F dan G bersifat equivalent jika untuk setiap interpretasi terhadap F dan G, keduanya selalu memiliki nilai kebenaran yang sama.
+ Himpunan kalimat F1, F2 , ... bersifat consistent jika terdapat beberapa interpretasi untuk F1, F2 , ... dimana setiap Fi bernilai benar.
+
+Terdapat 3 cara untuk menentukan validasi kalimat : Tabel Kebenaran (Truth Table) Pohon Semantik (Semantic Tree) Pembuktian Salah (Falsification)
+
+
+
+p = true
+q = false ==>
+F : (P or Q) and (not (P or Q)) jadi
+F : False
+
+p = False
+q = True ==>
+F : (P or Q) and (not (P or Q))jadi
+F : False
+
+p = False
+q = False ==>
+F : (P or Q) and (not (P or Q)) jadi
+F : False
+
+p = True
+q = True ==>
+F : (P or Q) and (not (P or Q))jadi
+F : False
+
+
+
+
+Tentukan sifat kalimat H : if ( P and (not Q) ) then ( (not P) or R )
+satisfible
+
+enukan sifat kalimat dari F : (P or Q) and (not (P or Q))
